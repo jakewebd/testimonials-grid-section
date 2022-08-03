@@ -3,6 +3,7 @@
     body {
         background: hsl(210, 46%, 95%);
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         height: 100vh;
@@ -12,6 +13,11 @@
         overflow: hidden;
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-size: 13px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0px;
     }
 
     .main-grid {
@@ -197,6 +203,10 @@
         overflow-x: hidden;
         display: flex;
         justify-content: center;
+    }
+
+    footer {
+        position: absolute; bottom: -1800px;
     }
 
     .main-grid {
