@@ -206,7 +206,8 @@
     }
 
     footer {
-        position: absolute; bottom: -1800px;
+        position: absolute;
+        bottom: -1800px;
     }
 
     .main-grid {
